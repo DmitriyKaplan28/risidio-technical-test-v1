@@ -31,7 +31,8 @@ export default {
 
 <style scoped>
 .mainNavbar{
-  margin: 0 50px 50px 50px;
+  margin: 0 50px 0 50px;
+
 }
 .mainNavbar ul {
   display: flex;

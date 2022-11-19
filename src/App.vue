@@ -1,4 +1,4 @@
-<template>
+<template class="app">
   <Navbar/>
     <router-view/>
   <Footer/> <!--You do not need to worry about the footer for this technical test. You can remove it if you'd like-->
@@ -25,5 +25,14 @@ export default {
 	-moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.app {
+  /* Layout Properties */
+  top: 113px;
+  left: 0;
+  width: 1366px;
+  height: 2729px;
+  /* UI Properties */
+  opacity: 1;
 }
 </style>
