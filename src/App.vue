@@ -1,7 +1,7 @@
-<template class="app">
+<template>
   <Navbar/>
-    <router-view/>
-  <Footer/> <!--You do not need to worry about the footer for this technical test. You can remove it if you'd like-->
+  <router-view/>
+  <Footer/>
 </template>
 
 <script>
@@ -19,20 +19,12 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 #app {
-	font-family: Montserrat, Arial, Helvetica, sans-serif !important;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  font-family: Montserrat, Arial, Helvetica, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   color: #2c3e50;
-}
-.app {
-  /* Layout Properties */
-  top: 113px;
-  left: 0;
-  width: 1366px;
-  height: 2729px;
-  /* UI Properties */
-  opacity: 1;
 }
 </style>
