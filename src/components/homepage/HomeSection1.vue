@@ -93,7 +93,7 @@ export default {
 
 .collection h1 {
   font: normal normal 300 40px/55px Montserrat;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #FFFFFF;
   text-transform: capitalize;
 }
@@ -103,7 +103,7 @@ export default {
   z-index: 10;
   width: 94px;
   height: 94px;
-  background: 0% 0% no-repeat padding-box;
+  background: 0 0 no-repeat padding-box;
   opacity: 1;
 }
 
@@ -119,7 +119,7 @@ export default {
   background: none;
   border: none;
   font: normal normal 600 14px/20px Montserrat;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #50B1B5;
   opacity: 1;
 }
