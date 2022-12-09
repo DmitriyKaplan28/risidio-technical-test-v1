@@ -56,14 +56,25 @@ export default {
     window.addEventListener('resize', this.checkScreen)
   },
   methods: {
-    checkScreen() {
+    checkScreen () {
       // You will have to add to this method if you want the expected results. Or abandon it entirely and make your own
       this.windowWidth = window.innerWidth
 
-      if (this.windowWidth > 428) {
+      if (this.windowWidth <= 600) {
         this.NFTs = this.GenerateNFTData.slice(0, 3)
         this.numberOfNFTs = 12
-      } else {
+      }
+
+      else if (this.windowWidth > 600 && this.windowWidth < 930) {
+        this.NFTs = []
+        this.numberOfNFTs = 6
+      }
+
+      else if(this.windowWidth > 930 && this.windowWidth < 1180){
+        this.numberOfNFTs = 4
+      }
+
+      else{
         this.numberOfNFTs = 3
       }
     },
